@@ -1,0 +1,31 @@
+CREATE TABLE employees129
+(
+  s_no int(4),
+  name char(30),
+  designation text,
+  branch text,
+  primary key (s_no));
+  INSERT INTO employees129
+  (s_no,name,designation,branch)
+  SELECT * FROM employees129
+  VALUES('1', 'BILAL', 'MANAGER', 'NELLORE');
+  INSERT INTO employees129
+  VALUES('2', 'lilal', 'pune', 'nellore');
+  INSERT INTO employees129
+  VALUES('3', 'kutlu', 'ceo', 'vizag');
+  CREATE TABLE worker3
+(
+  s_no int(4),
+  name char(30),
+  designation text,
+  branch text,
+  foreign key (s_no));
+  INSERT INTO worker3
+  (s_no,name,designation,branch)
+  SELECT*FROM worker3
+  INSERT INTO worker3
+  VALUES('11', 'BILtAL', 'MANAtGER', 'NELLORE');
+  INSERT INTO worker3
+  VALUES('12', 'lildal', 'punte', 'nellore');
+  INSERT INTO worker3
+  VALUES('13', 'kutdlu', 'tceo', 'vizag');
