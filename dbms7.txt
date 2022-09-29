@@ -1,0 +1,13 @@
+CREATE TABLE Employee1
+(
+  s_no int,
+  name text NOT NULL,
+  job text NOT NULL,
+  branch text NOT NULL);
+  -- insert
+  INSERT INTO Employee1 VALUES(1,'jaanu','CEO','Nellore');
+  INSERT INTO Employee1 VALUES(2,'jaggu','assistant','chennai');
+  INSERT INTO Employee1 VALUES(3,'vishnu','manager','chennai');
+  INSERT INTO employee1 VALUES(4,'puppy','manager','chennai');
+  -- fetch
+  SELECT  * FROM Employee1 WHERE branch='chennai' and job='manager';
